@@ -423,6 +423,7 @@
         "html": false,
         "link": true,
         "image": true,
+        "blockquote": true,
         customCommand: false,
         events: {},
         parserRules: {
