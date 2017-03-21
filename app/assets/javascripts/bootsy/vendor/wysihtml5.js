@@ -6858,8 +6858,8 @@ wysihtml5.commands.bold = {
 };
 
 wysihtml5.commands.blockquote = {
-    console.log('new command fn happening')
   exec: function(composer, command) {
+    console.log('new command fn happening')
     return wysihtml5.commands.formatInline.exec(composer, command, "blockquote");
   },
 
