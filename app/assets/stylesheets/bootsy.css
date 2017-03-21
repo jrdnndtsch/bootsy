@@ -334,3 +334,9 @@ body.bootsy_text_area.form-control {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
+.wysihtml5-sandbox {
+  width: 600px !important;
+  height: 600px !important;
+
+}
