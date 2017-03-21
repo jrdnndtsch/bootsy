@@ -18,6 +18,8 @@
         },
 
         "emphasis": function(locale, options) {
+            console.log(locale)
+            console.log(options)
             var size = (options && options.size) ? ' btn-'+options.size : '';
             return "<li>" +
               "<div class='btn-group'>" +
